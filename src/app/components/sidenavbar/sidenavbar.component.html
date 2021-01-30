@@ -1,0 +1,42 @@
+  <ul class="navigation navigation-main navigation-accordion">
+    <div class="text-center">
+      <a class="logo hidden-xs">
+        <h1>REVERSE JOB</h1>
+      </a>
+    </div>
+
+    <li class="navigation-header"><span>Mon profil</span></li>
+    <li [ngClass]="{'current' : current==='profile'}" (click)="selectCurrent('profile')">
+      <a>
+        <span><i class="fa fa-eye"></i> Mon Profile<sup>®</sup></span>
+      </a>
+    </li>
+
+    <li class="navigation-header"><span>Cotations</span></li>
+    <li [ngClass]="{'current' : current==='cotation'}" (click)="selectCurrent('cotation')">
+      <a>
+        <span><i class="fa fa-bar-chart"></i> Mes cotations</span>
+      </a>
+    </li>
+
+    <li class="navigation-header"><span>Gestion</span></li>
+    <li [ngClass]="{'current' : current==='moncompte'}" (click)="selectCurrent('moncompte')">
+      <a ><span><i class="fa fa-user"></i> Mon compte
+        </span></a>
+    </li>
+    <li [ngClass]="{'current' : current==='preference'}" (click)="selectCurrent('preference')">
+      <a><span><i class="fa fa-cogs"></i> Mes préférences</span></a>
+    </li>
+    <li [ngClass]="{'current' : current==='parrainage'}" (click)="selectCurrent('parrainage')">
+      <a><span><i class="fa fa-users"></i>
+          Parrainage</span></a>
+    </li>
+    <li [ngClass]="{'current' : current==='assistance'}" (click)="selectCurrent('assistance')">
+      <a><span><i class="fa fa-envelope" aria-hidden="true"></i>
+          Assistance</span></a>
+    </li>
+    <li>
+      <a><span><i
+            class="fa fa-sign-out"></i> Se déconnecter</span></a>
+    </li>
+  </ul>

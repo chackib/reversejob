@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/deeppurple-amber';
+
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+@import '../node_modules/bootstrap/scss/mixins';
+
+@import '../node_modules/bootstrap/scss/grid';
+@import '../node_modules/bootstrap/scss/reboot';
+@import '../node_modules/bootstrap/scss/utilities';
+
+
+@import '../node_modules/bootstrap/scss/card';
+
+@import '../src/assets/scss/angular-material.scss';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+h2 {
+  font-style: Times, Times New Roman, serif;
+  color: #d06f6f;
+  font-weight: bold !important;
+}

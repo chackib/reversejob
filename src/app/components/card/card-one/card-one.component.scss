@@ -1,0 +1,26 @@
+.card {
+  padding: 0;
+  height: 100%;
+  margin : 0px 10px 0px 0px;
+}
+.card-body {
+  text-align: center
+}
+
+.card-body .card-title span {
+  display: inline-block;
+  color: #333;
+  padding: 7px 15px 7px 15px;
+  line-height: 1.5384616;
+  border: 1px solid #e2e2e2;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 0.1px;
+  border-radius: 2px;
+  font-weight: bold;
+  margin-right: 8px;
+  margin-bottom: 5px;
+}
+.card-title {
+font-weight: 700;
+}
