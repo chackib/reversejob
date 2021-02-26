@@ -9,7 +9,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatFormFieldModule } from '@angular/material/form-field';
-import {MatTableModule} from '@angular/material/table';
+import { MatTableModule } from '@angular/material/table';
+import {MatDialogModule} from '@angular/material/dialog';
 
 import { SidenavbarComponent } from './components/sidenavbar/sidenavbar.component';
 import { CotationComponent } from './components/cotation/cotation.component';
@@ -19,6 +20,7 @@ import { MonCompteComponent } from './components/mon-compte/mon-compte.component
 import { MainComponent } from './components/main/main.component';
 import { CardOneComponent } from './components/card/card-one/card-one.component';
 import { TimelineContainerComponent } from './components/timeline-container/timeline-container.component';
+import { ProfileExperienceDialogComponent } from './components/profile-experience-dialog/profile-experience-dialog.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,8 @@ import { TimelineContainerComponent } from './components/timeline-container/time
     MonCompteComponent,
     MainComponent,
     CardOneComponent,
-    TimelineContainerComponent
+    TimelineContainerComponent,
+    ProfileExperienceDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -41,7 +44,8 @@ import { TimelineContainerComponent } from './components/timeline-container/time
     MatButtonModule,
     MatPaginatorModule,
     MatFormFieldModule,
-    MatTableModule
+    MatTableModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]
